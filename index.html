@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Сервисный центр CPS</title>
@@ -10,30 +10,28 @@
     <nav class="header header-nav">
       <div class="header__menu">
         <div class="header__left-side left-side">
-          <button class="left-side__button">
-            <img src="icon/burger.svg" alt="Меню">
-          </button>
-          <a class="left-side__link" href="index.html">
-           <img src="icon/Group.svg" alt="Логотип компании"></a>
+          <a class="left-side__link-burger" href="#"></a>
+          <div class="header__left-side-divider"></div>
+          <a class="left-side__link" href="index.html"></a>
         </div>
         <div class="header__center-side center-side">
-          <button class="center-side__button">
-            <img src="icon/call.svg" alt="Заказать звонок">
-          </button>
-          <button class="center-side__button">
-            <img src="icon/chat.svg" alt="Написать в поддержку">
-          </button>
-          <button class="center-side__button">
-            <img src="icon/profile.svg" alt="Профиль">
-          </button>
+          <div class="center-side__button">
+            <a class="center-side__link-call" href="#"></a> 
+          </div>
+          <div class="center-side__button">
+            <a class="center-side__link-chat" href="#"></a>
+          </div>
+          <div class="center-side__button">
+            <a class="center-side__link-profile" href="#"></a>
+          </div>
         </div>
         <div class="header__right-side right-side right-side--divider">
-          <button class="right-side__button">
-            <img src="icon/repair.svg" alt="Статус ремонта">
-          </button>
-          <button class="right-side__button">
-            <img src="icon/checkstatus.svg" alt="Оставить заявку">
-          </button>
+          <div class="right-side__button">
+            <a class="ride-side__link-repair" href="#"></a>
+          </div>
+          <div class="right-side__button">
+            <a class="ride-side__link-checkstatus" href="#"></a>
+          </div>
         </div>
       </div>
     </nav>
@@ -41,21 +39,21 @@
     <main>
       <header class="header">
         <div class="header__right-side right-side">
-          <button class="right-side__button right-side__button--hidden">
-            <img src="icon/repair.svg" alt="Статус ремонта">
-          </button>
-          <button class="right-side__button right-side__button--hidden">
-            <img src="icon/checkstatus.svg" alt="Оставить заявку">
-          </button>
+          <div class="right-side__button right-side__button--hidden">
+            <a class="ride-side__link--hidden repair--hidden " href="#"></a>
+          </div>
+          <div class="right-side__button right-side__button--hidden">
+            <a class="ride-side__link--hidden checkstatus--hidden" href="#"></a>
+          </div>
         </div>
         <article class="title">
           <h1 class="title__text title--before">Услуги и сервисы</h1>
         </article>
       </header>
-      <nav class="slide-menu">
+      <nav class="slide-menu"> 
         <div class="slide-menu__item">
           <a href="#" class="slide-menu__text">Ремонтируемые устройства</a>
-        </div>
+          </div>
         <div class="slide-menu__item">
           <a href="#" class="slide-menu__text">Дополнительные услуги</a>
         </div>
@@ -90,10 +88,10 @@
             </p>
           </div>
           <div class="content__read-next read-next">
-            <div class="read-next__icon">
-              <img src="icon/expand.svg" alt="Читать далее">
-            </div>
-            <button class="read-next__text">Читать далее</button>
+            <button class="read-next__button">
+            <div class="read-next__icon"></div>
+            <div class="read-next__text">Читать далее</div>
+            </button>
           </div>
         </div>
         <img src="img/cps.png" alt="Лого CPS" class="content__image logo">
