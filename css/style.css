@@ -409,16 +409,16 @@ main {
 }
    
 .read-next {
-    display: inline-flex;
+    display: flex;
 }
    
 .read-next__icon {
-    margin-top: 10px;
+    margin-top: 16px;
 }
    
 .read-next__text {
     font-family: "TTLakes", sans-serif;
-    margin: 10px 8px 16px 0px;
+    margin: 0px 0px 16px 40px;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.20000000298023224px;
@@ -610,12 +610,12 @@ main {
     }
             
     .read-next__icon {
-        margin-top: 10px;
+        margin-top: 16px;
     }
             
     .read-next__text {
         font-family: "TTLakes", sans-serif;
-        margin: 10px 8px 16px 0px;
+        margin: 0px 0px 16px 40px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.20000000298023224px;
