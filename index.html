@@ -7,29 +7,29 @@
     <title>Сервисный центр CPS</title>
   </head>
   <body>
-    <nav class="header header-nav">
-      <div class="header__menu">
+    <nav class="mobile-header header-nav">
+      <div class="mobile-header__menu">
         <div class="header__left-side left-side">
-          <a class="left-side__link-burger" href="#"></a>
+          <button class="button round-icon--burger" href="#"></button>
           <div class="header__left-side-divider"></div>
-          <a class="left-side__link" href="index.html"></a>
+          <a class="left-side__link-group" href="index.html"></a>
         </div>
         <div class="header__center-side center-side">
-          <div class="center-side__button">
-            <a class="center-side__link-call" href="#"></a> 
+          <div class="button round-icon--call">
+            <a href="#"></a> 
           </div>
-          <div class="center-side__button">
-            <a class="center-side__link-chat" href="#"></a>
+          <div class="button round-icon--chat">
+            <a href="#"></a>
           </div>
-          <div class="center-side__button">
-            <a class="center-side__link-profile" href="#"></a>
+          <div class="button round-icon--profile">
+            <a href="#"></a>
           </div>
         </div>
         <div class="header__right-side right-side right-side--divider">
-          <div class="right-side__button">
+          <div class="button">
             <a class="ride-side__link-repair" href="#"></a>
           </div>
-          <div class="right-side__button">
+          <div class="button">
             <a class="ride-side__link-checkstatus" href="#"></a>
           </div>
         </div>
@@ -37,38 +37,41 @@
     </nav>
 
     <main>
-      <header class="header">
-        <div class="header__right-side right-side">
+      <header class="main-header">
+        <div class="main-header__right-side right-side">
           <div class="right-side__button right-side__button--hidden">
-            <a class="ride-side__link--hidden repair--hidden " href="#"></a>
+            <a class="ride-side__link" href="#">Оставить заявку</a>
+            <div class="round-icon--repair"></div>
           </div>
           <div class="right-side__button right-side__button--hidden">
-            <a class="ride-side__link--hidden checkstatus--hidden" href="#"></a>
+            <a class="ride-side__link" href="#">Статус ремонта</a>
+            <div class="round-icon--checkstatus"></div>
+            
           </div>
         </div>
-        <article class="title">
           <h1 class="title__text title--before">Услуги и сервисы</h1>
-        </article>
       </header>
-      <nav class="slide-menu"> 
-        <div class="slide-menu__item">
+      <nav class="slide-menu">
+        <ul class="slide-list"> 
+        <li class="slide-menu__item">
           <a href="#" class="slide-menu__text">Ремонтируемые устройства</a>
-          </div>
-        <div class="slide-menu__item">
+        </li>  
+        <li class="slide-menu__item">
           <a href="#" class="slide-menu__text">Дополнительные услуги</a>
-        </div>
-        <div class="slide-menu__item">
+        </li>
+        <li class="slide-menu__item">
           <a href="#" class="slide-menu__text">Цены на услуги</a>
-        </div>
-        <div class="slide-menu__item">
+        </li>
+        <li class="slide-menu__item">
           <a href="#" class="slide-menu__text">Адреса сервисных центров</a>
-        </div>
-        <div class="slide-menu__item">
+        </li>
+        <li class="slide-menu__item">
           <a href="#" class="slide-menu__text">Специальные цены</a>
-        </div>
-        <div class="slide-menu__item">
+        </li>
+        <li class="slide-menu__item">
           <a href="#" class="slide-menu__text">Отзывы</a>
-        </div>
+        </li>
+      </ul>
       </nav>
       <article class="content">
         <div class="content__section">
@@ -88,10 +91,8 @@
             </p>
           </div>
           <div class="content__read-next read-next">
-            <button class="read-next__button">
             <div class="read-next__icon"></div>
-            <div class="read-next__text">Читать далее</div>
-            </button>
+            <button class="read-next__button read-next__text">Читать далее</button>
           </div>
         </div>
         <img src="img/cps.png" alt="Лого CPS" class="content__image logo">
