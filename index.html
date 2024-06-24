@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" >
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Сервисный центр CPS</title>
@@ -10,27 +10,27 @@
     <nav class="mobile-header header-nav">
       <div class="mobile-header__menu">
         <div class="header__left-side left-side">
-          <button class="button round-icon--burger" href="#"></button>
+          <button class="round-icon round-icon--burger" href="#"></button>
           <div class="header__left-side-divider"></div>
           <a class="left-side__link-group" href="index.html"></a>
         </div>
         <div class="header__center-side center-side">
-          <div class="button round-icon--call">
-            <a href="#"></a> 
-          </div>
-          <div class="button round-icon--chat">
+          <div class="round-icon round-icon--call">
             <a href="#"></a>
           </div>
-          <div class="button round-icon--profile">
+          <div class="round-icon round-icon--chat">
+            <a href="#"></a>
+          </div>
+          <div class="round-icon round-icon--profile">
             <a href="#"></a>
           </div>
         </div>
         <div class="header__right-side right-side right-side--divider">
-          <div class="button">
-            <a class="ride-side__link-repair" href="#"></a>
+          <div class="round-icon round-icon--repair">
+            <a href="#"></a>
           </div>
-          <div class="button">
-            <a class="ride-side__link-checkstatus" href="#"></a>
+          <div class="round-icon round-icon--checkstatus">
+            <a href="#"></a>
           </div>
         </div>
       </div>
@@ -40,38 +40,40 @@
       <header class="main-header">
         <div class="main-header__right-side right-side">
           <div class="right-side__button right-side__button--hidden">
-            <a class="ride-side__link" href="#">Оставить заявку</a>
-            <div class="round-icon--repair"></div>
+            <a class="right-side__link" href="#"
+              >Оставить заявку
+              <div class="round-icon round-icon--repair"></div
+            ></a>
           </div>
           <div class="right-side__button right-side__button--hidden">
-            <a class="ride-side__link" href="#">Статус ремонта</a>
-            <div class="round-icon--checkstatus"></div>
-            
+            <a class="right-side__link" href="#"
+              >Статус ремонта
+              <div class="round-icon round-icon--checkstatus"></div></a>
           </div>
         </div>
-          <h1 class="title__text title--before">Услуги и сервисы</h1>
+        <h1 class="title__text title--before">Услуги и сервисы</h1>
       </header>
       <nav class="slide-menu">
-        <ul class="slide-list"> 
-        <li class="slide-menu__item">
-          <a href="#" class="slide-menu__text">Ремонтируемые устройства</a>
-        </li>  
-        <li class="slide-menu__item">
-          <a href="#" class="slide-menu__text">Дополнительные услуги</a>
-        </li>
-        <li class="slide-menu__item">
-          <a href="#" class="slide-menu__text">Цены на услуги</a>
-        </li>
-        <li class="slide-menu__item">
-          <a href="#" class="slide-menu__text">Адреса сервисных центров</a>
-        </li>
-        <li class="slide-menu__item">
-          <a href="#" class="slide-menu__text">Специальные цены</a>
-        </li>
-        <li class="slide-menu__item">
-          <a href="#" class="slide-menu__text">Отзывы</a>
-        </li>
-      </ul>
+        <ul class="slide-list">
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Ремонтируемые устройства</a>
+          </li>
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Дополнительные услуги</a>
+          </li>
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Цены на услуги</a>
+          </li>
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Адреса сервисных центров</a>
+          </li>
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Специальные цены</a>
+          </li>
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Отзывы</a>
+          </li>
+        </ul>
       </nav>
       <article class="content">
         <div class="content__section">
@@ -90,12 +92,12 @@
               очередь, советуют нас родным и близким.
             </p>
           </div>
-          <div class="content__read-next read-next">
-            <div class="read-next__icon"></div>
-            <button class="read-next__button read-next__text">Читать далее</button>
-          </div>
+          <button class="content__read-next read-next">
+            <span class="read__icon"></span>
+            <span class="read-next__text">Читать далее</span>
+          </button>
         </div>
-        <img src="img/cps.png" alt="Лого CPS" class="content__image logo">
+        <img src="img/cps.png" alt="Лого CPS" class="content__image logo" >
       </article>
     </main>
   </body>
