@@ -127,7 +127,7 @@ button{
 
 
 .round-icon--call{
-    background: url("/icon/call.svg");
+    background: url("./icon/call.svg");
 }
 
 .round-icon--chat{
