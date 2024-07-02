@@ -65,11 +65,11 @@ button{
 }
 
 .round-icon--close-menu{
-    background: url("/icon/back.svg");
+    background: url("../icon/back.svg");
 }
 
 .round-icon--search{
-    background: url("/icon/search.svg");
+    background: url("../icon/search.svg");
 }
 
 .logo-group{
@@ -131,11 +131,11 @@ button{
 }
 
 .round-icon--chat{
-    background: url("/icon/chat.svg");
+    background: url("../icon/chat.svg");
 }
 
 .round-icon--profile{
-    background: url("/icon/profile.svg");
+    background: url("../icon/profile.svg");
 }
 
 .contacts__email{
