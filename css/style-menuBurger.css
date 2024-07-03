@@ -155,10 +155,6 @@ button:hover{
   padding-bottom: 32px;
 }
 
-.active {
-  color: #7e7e82;
-}
-
 .main-menu__link:hover {
   filter: opacity(50%);
   transition: filter 0.5s ease;
