@@ -1,17 +1,16 @@
 @font-face {
-  font-family: "TTLakes";
+  font-family: "TT Lakes";
   src: url("/fonts/TTLakes-Bold.eot");
   src: url("/fonts/TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
     url("/fonts/TTLakes-Bold.woff") format("woff"),
     url("/fonts/TTLakes-Bold.ttf") format("truetype");
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
 }
 @font-face {
-  font-family: "TTLakes";
+  font-family: "TT Lakes";
   src: url("/fonts/TTLakes-Regular.eot");
-  src: url("/fonts/TTLakes-Regular.eot?#iefix"), format("embedded-opentype"),
-    local("font/TT Lakes Regular"), local("font/TTLakes-Regular"),
+  src: url("/fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
     url("/fonts/TTLakes-Regular.woff") format("woff"),
     url("/fonts/TTLakes-Regular.ttf") format("truetype");
   font-style: normal;
@@ -20,7 +19,7 @@
 
 html {
   width: 320px;
-  font-family: "TT Lakes", sans-serif;
+  font-family: "TT Lakes", "Arial", sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.20000000298023224px;
@@ -46,7 +45,7 @@ button {
   background: 0;
 }
 
-button:hover{
+button:hover {
   filter: opacity(50%);
   transition: filter 0.5s ease;
 }
@@ -84,7 +83,7 @@ button:hover{
 }
 
 .title {
-  font-family: "TT Lakes" sans-serif;
+  font-family: "TT Lakes", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -99,7 +98,7 @@ button:hover{
   text-align: left;
   color: #1b1c21;
   margin: 32px 0 32px -14px;
-  font-family: "TT Lakes", sans-serif;
+  font-family: "TT Lakes", "Arial", sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.20000000298023224px;
@@ -134,7 +133,7 @@ button:hover{
 
 .contacts__number-phone {
   color: #1b1c21;
-  font-family: "TT Lakes", sans-serif;
+  font-family: "TT Lakes", "Arial", sans-serif;
   font-size: 24px;
   font-weight: bolder;
   line-height: 32px;
@@ -147,7 +146,7 @@ button:hover{
   width: 87px;
   height: 24px;
   margin: 40px 0 0px 20px;
-  font-family: "TT Lakes", sans-serif;
+  font-family: "TT Lakes", "Arial", sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.20000000298023224px;
@@ -168,7 +167,7 @@ button:hover{
   background-color: #41f6d7;
   border-radius: 5px;
   position: absolute;
-  left: -25px;
+  left: -27px;
 }
 
 .round-icon:hover {
@@ -176,18 +175,17 @@ button:hover{
   transition: filter 0.5s ease;
 }
 
-.language__RU:hover{
+.language__RU:hover {
   filter: opacity(50%);
   transition: filter 0.5s ease;
 }
 
-.language__EN:hover{
-    filter: opacity(50%);
-    transition: filter 0.5s ease;
-  }
+.language__EN:hover {
+  filter: opacity(50%);
+  transition: filter 0.5s ease;
+}
 
-  .language__CH:hover{
-    filter: opacity(50%);
-    transition: filter 0.5s ease;
-  }
-  
+.language__CH:hover {
+  filter: opacity(50%);
+  transition: filter 0.5s ease;
+}
