@@ -179,3 +179,19 @@ button:hover{
   filter: opacity(50%);
   transition: filter 0.5s ease;
 }
+
+.language__RU:hover{
+  filter: opacity(50%);
+  transition: filter 0.5s ease;
+}
+
+.language__EN:hover{
+    filter: opacity(50%);
+    transition: filter 0.5s ease;
+  }
+
+  .language__CH:hover{
+    filter: opacity(50%);
+    transition: filter 0.5s ease;
+  }
+  
