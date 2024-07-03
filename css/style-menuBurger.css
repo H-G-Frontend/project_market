@@ -175,6 +175,18 @@ button:hover {
   transition: filter 0.5s ease;
 }
 
+.language__RU:active {
+  color: #7e7e82;
+}
+
+.language__EN:active {
+  color: #7e7e82;
+}
+
+.language__CH:active {
+  color: #7e7e82;
+}
+
 .language__RU:hover {
   filter: opacity(50%);
   transition: filter 0.5s ease;
