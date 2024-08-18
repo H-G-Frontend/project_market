@@ -1,18 +1,18 @@
 @font-face {
 	font-family: 'TTLakes';
-	src: url('/fonts/TTLakes-Bold.eot');
-	src: url('/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/TTLakes-Bold.woff') format('woff'),
-		url('/fonts/TTLakes-Bold.ttf') format('truetype');
+	src: url('fonts/TTLakes-Bold.eot');
+	src: url('fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/TTLakes-Bold.woff') format('woff'),
+		url('fonts/TTLakes-Bold.ttf') format('truetype');
 	font-style: normal;
 	font-weight: 700;
 }
 @font-face {
 	font-family: 'TTLakes';
-	src: url('/fonts/TTLakes-Regular.eot');
-	src: url('/fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/TTLakes-Regular.woff') format('woff'),
-		url('/fonts/TTLakes-Regular.ttf') format('truetype');
+	src: url('fonts/TTLakes-Regular.eot');
+	src: url('fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/TTLakes-Regular.woff') format('woff'),
+		url('fonts/TTLakes-Regular.ttf') format('truetype');
 	font-style: normal;
 	font-weight: 400;
 }
@@ -73,7 +73,7 @@ body {
 	height: 72px;
 	padding: 16px;
 	background-color: #FFFFFF;
-	background-image: url("/icon/go.svg");
+	background-image: url("icon/go.svg");
 	background-repeat: no-repeat;
 	background-size: content;
 	background-position: 90% 50%;
@@ -152,7 +152,7 @@ body {
 		text-wrap: nowrap;
 		width: 150px;
 		height: 24px;
-    background-image: url("/icon/expand.svg");
+    background-image: url("icon/expand.svg");
 		background-repeat: no-repeat;
 		background-position: -1% 50%;
 	}
