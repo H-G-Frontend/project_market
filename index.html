@@ -1,88 +1,104 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <script src="/script.js" defer></script>
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Нижнее меню CPS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Сервисный центр CPS</title>
   </head>
   <body>
-    <section class="brand">
-      <header class="header">
-        <h1 class="header__title">Ремонт техники различных брендов</h1>
+    <nav class="mobile-header header-nav">
+      <div class="mobile-header__menu">
+        <div class="header__left-side left-side">
+          <button class="round-icon round-icon--burger" href="#"></button>
+          <div class="header__left-side-divider"></div>
+          <a class="left-side__link-group" href="index.html"></a>
+        </div>
+        <div class="header__center-side center-side">
+          <div class="round-icon round-icon--call">
+            <a href="#"></a>
+          </div>
+          <div class="round-icon round-icon--chat">
+            <a href="#"></a>
+          </div>
+          <div class="round-icon round-icon--profile">
+            <a href="#"></a>
+          </div>
+        </div>
+        <div class="header__right-side right-side right-side--divider">
+          <div class="round-icon round-icon--repair">
+            <a href="#"></a>
+          </div>
+          <div class="round-icon round-icon--checkstatus">
+            <a href="#"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <header class="main-header">
+        <div class="main-header__right-side right-side">
+          <div class="right-side__button right-side__button--hidden">
+            <a class="right-side__link" href="#"
+              >Оставить заявку
+              <div class="round-icon round-icon--repair"></div
+            ></a>
+          </div>
+          <div class="right-side__button right-side__button--hidden">
+            <a class="right-side__link" href="#"
+              >Статус ремонта
+              <div class="round-icon round-icon--checkstatus"></div></a>
+          </div>
+        </div>
+        <h1 class="title__text title--before">Услуги и сервисы</h1>
       </header>
-      <nav class="swiper nav-menu">
-        <ul class="swiper-wrapper list-brand">
-          <li class="swiper-slide list-brand__item">
-            <a href="#" class="list-brand__link">
-              <img src="/image/lenovo.svg" alt="Логотип Lenovo">
-            </a>
+      <nav class="slide-menu">
+        <ul class="slide-list">
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Ремонтируемые устройства</a>
           </li>
-          <li class="swiper-slide list-brand__item">
-            <a href="#" class="list-brand__link">
-              <img src="/image/samsung.svg" alt="Логотип Samsung">
-            </a>
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Дополнительные услуги</a>
           </li>
-          <li class="swiper-slide list-brand__item">
-            <a href="#" class="list-brand__link">
-              <img src="/image/apple.svg" alt="Логотип Apple">
-            </a>
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Цены на услуги</a>
           </li>
-          <li class="swiper-slide list-brand__item">
-            <a href="#" class="list-brand__link">
-              <img src="/image/viewSonic.svg" alt="Логотип ViewSonic">
-            </a>
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Адреса сервисных центров</a>
           </li>
-          <li class="swiper-slide list-brand__item">
-            <a href="#" class="list-brand__link">
-              <img src="/image/bosch.svg" alt="Логотип Bosch">
-            </a>
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Специальные цены</a>
           </li>
-          <li class="swiper-slide list-brand__item">
-            <a href="#" class="list-brand__link">
-              <img src="/image/hp.svg" alt="Логотип HP">
-            </a>
-          </li>
-          <li class="swiper-slide list-brand__item">
-            <a href="#" class="list-brand__link">
-              <img src="/image/acer.svg" alt="Логотип Acer">
-            </a>
-          </li>
-          <li class="swiper-slide list-brand__item">
-            <a href="#" class="list-brand__link">
-              <img src="/image/sony.svg" alt="Логотип Sony">
-            </a>
-          </li>
-          <li class="swiper-slide list-brand__item">
-            <a href="#" class="list-brand__link">
-              <img src="/image/sony.svg" alt="Логотип Sony">
-            </a>
-            </li>
-            <li class="swiper-slide list-brand__item">
-                <a href="#" class="list-brand__link">
-                  <img src="/image/sony.svg" alt="Логотип Sony">
-                </a>
-          </li>
-          <li class="swiper-slide list-brand__item">
-            <a href="#" class="list-brand__link">
-              <img src="/image/sony.svg" alt="Логотип Sony">
-            </a>
-          </li>
-          <li class="swiper-slide list-brand__item">
-            <a href="#" class="list-brand__link">
-              <img src="/image/sony.svg" alt="Логотип Sony">
-            </a>
+          <li class="slide-menu__item">
+            <a href="#" class="slide-menu__text">Отзывы</a>
           </li>
         </ul>
-        <div class="swiper-pagination"></div>
       </nav>
-      <button class="show-more-button">
-        <span class="show-more-button__text">Показать все</span>
-      </button>
-    </section>
+      <article class="content">
+        <div class="content__section">
+          <div class="content__text">
+            <p class="text-p1">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell.Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+            </p>
+            <p class="text-p2">
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера.
+            </p>
+            <p class="text-p3">
+              Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+              очередь, советуют нас родным и близким.
+            </p>
+          </div>
+          <button class="content__read-next read-next">
+            <span class="read__icon"></span>
+            <span class="read-next__text">Читать далее</span>
+          </button>
+        </div>
+        <img src="img/cps.png" alt="Лого CPS" class="content__image logo" >
+      </article>
+    </main>
   </body>
 </html>
