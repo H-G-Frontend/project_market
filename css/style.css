@@ -73,7 +73,7 @@ body {
 	height: 72px;
 	padding: 16px;
 	background-color: #FFFFFF;
-	background-image: url("icon/go.svg");
+	background-image: url("/icon/go.svg");
 	background-repeat: no-repeat;
 	background-size: content;
 	background-position: 90% 50%;
@@ -152,7 +152,7 @@ body {
 		text-wrap: nowrap;
 		width: 150px;
 		height: 24px;
-    background-image: url("icon/expand.svg");
+    background-image: url("/icon/expand.svg");
 		background-repeat: no-repeat;
 		background-position: -1% 50%;
 	}
