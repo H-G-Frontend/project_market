@@ -1194,6 +1194,22 @@ body {
       padding-left: 24px;
       width: 150px;
       height: 20px; } }
+  @media (min-width: 1024px) {
+    .show-more-button {
+      padding-left: 36px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .show-more-button {
+      padding-left: 36px;
+    }
+  }    
+  @media (min-width: 1366px) {
+    .show-more-button {
+      padding-left: 90px;
+    }
+  }    
+    
   .show-more-button__text {
     font-family: 'TTLakes', 'Arial', sans-serif;
     color: #1b1c21;
