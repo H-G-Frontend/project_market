@@ -1,1 +1,1 @@
-https://homelessgod-js.github.io/project_market/.
+https://h-g-frontend.github.io/project_market/
